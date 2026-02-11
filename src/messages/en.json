@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "title": "PET-CT Imaging | Optimed Health Group",
+    "description": "State-of-the-art PET-CT imaging services at Optimed Health Group. Book your appointment for accurate and early diagnosis."
+  },
+  "navbar": {
+    "petct": "What is PET-CT?",
+    "usage": "Applications",
+    "process": "How It Works",
+    "preparation": "Preparation",
+    "comparison": "Comparison",
+    "faq": "FAQ",
+    "cta": "Book Now",
+    "openMenu": "Open Menu",
+    "closeMenu": "Close Menu"
+  },
+  "hero": {
+    "eyebrow": "Advanced Medical Imaging",
+    "title": "PET-CT Imaging for Accurate and Early Diagnosis",
+    "subtitle": "At Optimed Health Group, we provide reliable results for early disease detection and treatment planning with our state-of-the-art PET-CT equipment.",
+    "cta_primary": "Book a PET-CT Appointment",
+    "cta_secondary": "Get Detailed Information"
+  },
+  "whatIsPetCt": {
+    "title": "What is PET-CT?",
+    "description": "PET-CT (Positron Emission Tomography - Computed Tomography) is an advanced medical imaging method that visualizes the metabolic activity of cells in the body. By combining PET and CT technologies, it provides both anatomical and functional information.",
+    "bullets": [
+      "Visualizes metabolic activity at the cellular level",
+      "Combines PET and CT technologies in a single scan",
+      "Can scan the entire body in one session",
+      "Can detect diseases at early stages",
+      "Gold standard for evaluating treatment response"
+    ]
+  },
+  "whenUsed": {
+    "title": "When is PET-CT Used?",
+    "items": [
+      {
+        "title": "Cancer Diagnosis",
+        "description": "Used for tumor detection, staging, and characterization."
+      },
+      {
+        "title": "Metastasis Screening",
+        "description": "Determines whether cancer has spread to other parts of the body."
+      },
+      {
+        "title": "Treatment Monitoring",
+        "description": "Evaluates treatment effectiveness after chemotherapy and radiotherapy."
+      },
+      {
+        "title": "Recurrence Assessment",
+        "description": "Checks whether cancer has recurred after treatment."
+      },
+      {
+        "title": "Neurological Conditions",
+        "description": "Assessment of epilepsy, Alzheimer's, and other neurological conditions."
+      },
+      {
+        "title": "Cardiac Evaluation",
+        "description": "Evaluates heart muscle viability and blood flow."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How Does PET-CT Work?",
+    "steps": [
+      {
+        "title": "Radiopharmaceutical Injection",
+        "description": "A radioactive substance called FDG (fluorodeoxyglucose) is injected intravenously."
+      },
+      {
+        "title": "Waiting Period",
+        "description": "You rest in a quiet room for approximately 45-60 minutes while the substance distributes throughout the body."
+      },
+      {
+        "title": "Imaging",
+        "description": "A painless scan lasting approximately 20-30 minutes is performed in the PET-CT machine."
+      },
+      {
+        "title": "Results & Reporting",
+        "description": "Images are evaluated by expert nuclear medicine physicians and a report is prepared."
+      }
+    ]
+  },
+  "whoShouldAvoid": {
+    "title": "Who Should Not Have PET-CT?",
+    "items": [
+      {
+        "title": "Pregnant Women",
+        "description": "PET-CT is not recommended during pregnancy due to radiation exposure. Be sure to inform your doctor if you are or might be pregnant."
+      },
+      {
+        "title": "Breastfeeding Mothers",
+        "description": "If PET-CT is performed during breastfeeding, nursing must be paused for a specific period after the injection."
+      },
+      {
+        "title": "Uncontrolled Diabetes Patients",
+        "description": "Image quality may decrease in patients with high blood sugar levels. Blood sugar must be under control before the procedure."
+      },
+      {
+        "title": "Severe Kidney Failure",
+        "description": "Special evaluation is required for the contrast CT component in patients with serious kidney dysfunction."
+      }
+    ]
+  },
+  "preparation": {
+    "title": "Preparing for PET-CT",
+    "items": [
+      {
+        "title": "6-Hour Fast",
+        "description": "Stop eating and drinking at least 6 hours before the procedure. Water is allowed."
+      },
+      {
+        "title": "Blood Sugar Check",
+        "description": "If you have diabetes, your blood sugar must be below 200 mg/dL."
+      },
+      {
+        "title": "Avoid Heavy Exercise",
+        "description": "Avoid intense physical activity 24 hours before the procedure."
+      },
+      {
+        "title": "Wear Comfortable Clothing",
+        "description": "Choose comfortable, warm clothing without metal accessories."
+      },
+      {
+        "title": "Report Your Medications",
+        "description": "Inform your doctor about all medications and supplements you are taking."
+      },
+      {
+        "title": "Bring Previous Tests",
+        "description": "Have your previous imaging and laboratory results with you."
+      }
+    ]
+  },
+  "duration": {
+    "title": "How Long Does It Take?",
+    "cards": [
+      {
+        "value": "45-60",
+        "unit": "min",
+        "label": "Waiting Time",
+        "description": "Waiting for the radiopharmaceutical to distribute in the body"
+      },
+      {
+        "value": "20-30",
+        "unit": "min",
+        "label": "Scan Duration",
+        "description": "Imaging time in the PET-CT machine"
+      },
+      {
+        "value": "2-3",
+        "unit": "hrs",
+        "label": "Total Duration",
+        "description": "Total time spent at the center including preparation"
+      }
+    ]
+  },
+  "afterScan": {
+    "title": "What to Do After PET-CT?",
+    "items": [
+      {
+        "title": "Drink Plenty of Water",
+        "description": "Drink plenty of water to help eliminate the radioactive substance from your body faster."
+      },
+      {
+        "title": "Stay Away from Children & Pregnant Women",
+        "description": "Minimize close contact with young children and pregnant women for 6 hours after the procedure."
+      },
+      {
+        "title": "Return to Normal Activities",
+        "description": "You can return to your daily activities immediately after the procedure."
+      },
+      {
+        "title": "Wait for Your Results",
+        "description": "Your report will typically be ready within 1-2 business days."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "PET-CT vs Other Imaging Methods",
+    "headers": ["Feature", "PET-CT", "MRI", "CT"],
+    "rows": [
+      ["Metabolic Activity", "Yes", "No", "No"],
+      ["Anatomical Detail", "Good", "Excellent", "Good"],
+      ["Whole Body Scan", "Yes", "Limited", "Yes"],
+      ["Cancer Staging", "Excellent", "Good", "Moderate"],
+      ["Treatment Response", "Excellent", "Good", "Limited"],
+      ["Radiation", "Yes", "No", "Yes"],
+      ["Duration", "2-3 hours", "30-60 min", "15-30 min"]
+    ]
+  },
+  "optimedService": {
+    "title": "Why PET-CT at Optimed?",
+    "description": "At Optimed Health Group, we deliver the highest quality standards in PET-CT imaging.",
+    "usps": [
+      {
+        "title": "State-of-the-Art Equipment",
+        "description": "High-resolution imaging with the latest PET-CT technology."
+      },
+      {
+        "title": "Expert Team",
+        "description": "Our team of experienced nuclear medicine specialists and radiologists."
+      },
+      {
+        "title": "Fast Results",
+        "description": "Reports prepared in the shortest time and delivered to your doctor."
+      },
+      {
+        "title": "Patient Comfort",
+        "description": "A stress-free experience in our modern and comfortable facility."
+      }
+    ],
+    "cta": "Book Your Appointment Now"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is PET-CT harmful?",
+        "answer": "The radiation dose used in PET-CT is low and is eliminated from the body quickly. When medically necessary, the benefits far outweigh the potential risks."
+      },
+      {
+        "question": "Is PET-CT a painful procedure?",
+        "answer": "No, PET-CT is completely painless. You may only feel a slight prick during the intravenous injection."
+      },
+      {
+        "question": "When will PET-CT results be ready?",
+        "answer": "Results are typically ready within 1-2 business days. After our specialist physicians evaluate the images in detail, your report is sent to your referring doctor."
+      },
+      {
+        "question": "Do I need to undress for PET-CT?",
+        "answer": "You can enter the procedure in comfortable clothing without metal. If necessary, a special patient gown will be provided."
+      },
+      {
+        "question": "Can children have PET-CT?",
+        "answer": "Yes, PET-CT can be performed on children when medically necessary. The dose is adjusted according to the child's weight."
+      },
+      {
+        "question": "Do I need a referral for PET-CT?",
+        "answer": "Yes, a doctor's referral is required for PET-CT scanning. You can get a referral from departments such as oncology, neurology, or cardiology."
+      },
+      {
+        "question": "How much does PET-CT cost?",
+        "answer": "PET-CT costs may vary depending on the radiopharmaceutical used and additional procedures. Please contact our center for current pricing and insurance coverage information."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Book Your PET-CT Appointment Today",
+    "description": "Early diagnosis saves lives. Get in touch with our expert team.",
+    "button": "Book Appointment"
+  },
+  "footer": {
+    "description": "At Optimed Health Group, we provide advanced medical imaging services.",
+    "contact": "Contact",
+    "address": "Istanbul, Turkey",
+    "phone": "+90 (212) 000 00 00",
+    "email": "info@optimedsaglik.com",
+    "quickLinks": "Quick Links",
+    "rights": "All rights reserved.",
+    "language": "Language"
+  }
+}

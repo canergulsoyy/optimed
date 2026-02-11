@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "title": "PET-CT Görüntüleme | Optimed Sağlık Grubu",
+    "description": "Optimed Sağlık Grubu'nda son teknoloji PET-CT görüntüleme hizmeti. Erken ve doğru tanı için hemen randevu alın."
+  },
+  "navbar": {
+    "petct": "PET-CT Nedir?",
+    "usage": "Kullanım Alanları",
+    "process": "Nasıl Yapılır?",
+    "preparation": "Hazırlık",
+    "comparison": "Karşılaştırma",
+    "faq": "SSS",
+    "cta": "Randevu Al",
+    "openMenu": "Menüyü Aç",
+    "closeMenu": "Menüyü Kapat"
+  },
+  "hero": {
+    "eyebrow": "İleri Tıbbi Görüntüleme",
+    "title": "Doğru ve Erken Tanı İçin PET-CT Görüntüleme",
+    "subtitle": "Optimed Sağlık Grubu olarak, son teknoloji PET-CT cihazlarımızla hastalıkların erken teşhisinde ve tedavi planlamasında güvenilir sonuçlar sunuyoruz.",
+    "cta_primary": "PET-CT Randevusu Al",
+    "cta_secondary": "Detaylı Bilgi Al"
+  },
+  "whatIsPetCt": {
+    "title": "PET-CT Nedir?",
+    "description": "PET-CT (Pozitron Emisyon Tomografisi - Bilgisayarlı Tomografi), vücuttaki hücrelerin metabolik aktivitesini görüntüleyen ileri bir tıbbi görüntüleme yöntemidir. PET ve CT teknolojilerini birleştirerek hem anatomik hem de fonksiyonel bilgi sağlar.",
+    "bullets": [
+      "Hücre düzeyinde metabolik aktiviteyi görüntüler",
+      "PET ve CT teknolojilerini tek bir taramada birleştirir",
+      "Tüm vücudu tek seansta tarayabilir",
+      "Hastalıkları erken evrede tespit edebilir",
+      "Tedavi yanıtını değerlendirmede altın standart"
+    ]
+  },
+  "whenUsed": {
+    "title": "PET-CT Ne Zaman Kullanılır?",
+    "items": [
+      {
+        "title": "Kanser Teşhisi",
+        "description": "Tümörlerin tespiti, evrelemesi ve karakterizasyonu için kullanılır."
+      },
+      {
+        "title": "Metastaz Taraması",
+        "description": "Kanserin vücudun diğer bölgelerine yayılıp yayılmadığını belirler."
+      },
+      {
+        "title": "Tedavi Takibi",
+        "description": "Kemoterapi ve radyoterapi sonrası tedavinin etkinliğini değerlendirir."
+      },
+      {
+        "title": "Nüks Değerlendirmesi",
+        "description": "Tedavi sonrası kanserin tekrarlayıp tekrarlamadığını kontrol eder."
+      },
+      {
+        "title": "Nörolojik Hastalıklar",
+        "description": "Epilepsi, Alzheimer ve diğer nörolojik durumların değerlendirilmesi."
+      },
+      {
+        "title": "Kardiyolojik Değerlendirme",
+        "description": "Kalp kasının canlılığını ve kan akışını değerlendirir."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "PET-CT Nasıl Yapılır?",
+    "steps": [
+      {
+        "title": "Radyofarmasötik Enjeksiyonu",
+        "description": "Damar yolundan FDG (florodeoksiglukoz) adlı radyoaktif madde enjekte edilir."
+      },
+      {
+        "title": "Bekleme Süresi",
+        "description": "Maddenin vücutta dağılması için yaklaşık 45-60 dakika sessiz bir odada beklenir."
+      },
+      {
+        "title": "Görüntüleme",
+        "description": "PET-CT cihazında yaklaşık 20-30 dakika süren ağrısız bir tarama yapılır."
+      },
+      {
+        "title": "Sonuç ve Raporlama",
+        "description": "Uzman nükleer tıp hekimleri tarafından görüntüler değerlendirilir ve rapor hazırlanır."
+      }
+    ]
+  },
+  "whoShouldAvoid": {
+    "title": "Kimler PET-CT Yaptırmamalı?",
+    "items": [
+      {
+        "title": "Hamile Kadınlar",
+        "description": "Radyasyon maruziyeti nedeniyle gebelik döneminde PET-CT önerilmez. Hamile olduğunuzu veya olabileceğinizi düşünüyorsanız mutlaka doktorunuza bildirin."
+      },
+      {
+        "title": "Emziren Anneler",
+        "description": "Emzirme döneminde PET-CT yapılması durumunda, enjeksiyondan sonra belirli bir süre emzirmeye ara verilmesi gerekir."
+      },
+      {
+        "title": "Kontrolsüz Diyabet Hastaları",
+        "description": "Kan şekeri düzeyi yüksek hastalarda görüntü kalitesi düşebilir. İşlem öncesi kan şekerinizin kontrol altında olması gerekir."
+      },
+      {
+        "title": "Ağır Böbrek Yetmezliği",
+        "description": "Ciddi böbrek fonksiyon bozukluğu olan hastalarda kontrastlı CT bileşeni için özel değerlendirme yapılır."
+      }
+    ]
+  },
+  "preparation": {
+    "title": "PET-CT Öncesi Hazırlık",
+    "items": [
+      {
+        "title": "6 Saat Açlık",
+        "description": "İşlemden en az 6 saat önce yeme-içmeyi bırakın. Su içebilirsiniz."
+      },
+      {
+        "title": "Kan Şekeri Kontrolü",
+        "description": "Diyabet hastasıysanız kan şekerinizin 200 mg/dL altında olması gerekir."
+      },
+      {
+        "title": "Ağır Egzersizden Kaçının",
+        "description": "İşlemden 24 saat önce ağır fiziksel aktiviteden kaçının."
+      },
+      {
+        "title": "Rahat Kıyafet Giyin",
+        "description": "Metal aksesuar içermeyen, rahat ve sıcak kıyafetler tercih edin."
+      },
+      {
+        "title": "İlaçlarınızı Bildirin",
+        "description": "Kullandığınız tüm ilaçları ve takviye ürünlerini doktorunuza bildirin."
+      },
+      {
+        "title": "Önceki Tetkiklerinizi Getirin",
+        "description": "Daha önce yapılmış görüntüleme ve laboratuvar sonuçlarınızı yanınızda bulundurun."
+      }
+    ]
+  },
+  "duration": {
+    "title": "İşlem Ne Kadar Sürer?",
+    "cards": [
+      {
+        "value": "45-60",
+        "unit": "dk",
+        "label": "Bekleme Süresi",
+        "description": "Radyofarmasötiğin vücutta dağılması için bekleme"
+      },
+      {
+        "value": "20-30",
+        "unit": "dk",
+        "label": "Tarama Süresi",
+        "description": "PET-CT cihazında görüntüleme süresi"
+      },
+      {
+        "value": "2-3",
+        "unit": "saat",
+        "label": "Toplam Süre",
+        "description": "Hazırlık dahil merkezde geçirilen toplam süre"
+      }
+    ]
+  },
+  "afterScan": {
+    "title": "PET-CT Sonrası Neler Yapmalısınız?",
+    "items": [
+      {
+        "title": "Bol Su İçin",
+        "description": "Radyoaktif maddenin vücuttan atılmasını hızlandırmak için bol su için."
+      },
+      {
+        "title": "Çocuklardan ve Hamilelerden Uzak Durun",
+        "description": "İşlemden sonraki 6 saat boyunca küçük çocuklar ve hamile kadınlarla yakın temayı en aza indirin."
+      },
+      {
+        "title": "Normal Aktivitelere Dönüş",
+        "description": "İşlem sonrası günlük aktivitelerinize hemen dönebilirsiniz."
+      },
+      {
+        "title": "Sonuçlarınızı Bekleyin",
+        "description": "Raporunuz genellikle 1-2 iş günü içinde hazır olacaktır."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "PET-CT ve Diğer Görüntüleme Yöntemleri",
+    "headers": ["Özellik", "PET-CT", "MR", "BT"],
+    "rows": [
+      ["Metabolik Aktivite", "Evet", "Hayır", "Hayır"],
+      ["Anatomik Detay", "İyi", "Çok İyi", "İyi"],
+      ["Tüm Vücut Tarama", "Evet", "Sınırlı", "Evet"],
+      ["Kanser Evreleme", "Çok İyi", "İyi", "Orta"],
+      ["Tedavi Yanıtı", "Çok İyi", "İyi", "Sınırlı"],
+      ["Radyasyon", "Var", "Yok", "Var"],
+      ["Süre", "2-3 saat", "30-60 dk", "15-30 dk"]
+    ]
+  },
+  "optimedService": {
+    "title": "Neden Optimed'de PET-CT?",
+    "description": "Optimed Sağlık Grubu olarak, PET-CT görüntülemede en yüksek kalite standartlarını sunuyoruz.",
+    "usps": [
+      {
+        "title": "Son Teknoloji Cihazlar",
+        "description": "En güncel PET-CT teknolojisiyle yüksek çözünürlüklü görüntüleme."
+      },
+      {
+        "title": "Uzman Kadro",
+        "description": "Deneyimli nükleer tıp uzmanları ve radyologlardan oluşan ekibimiz."
+      },
+      {
+        "title": "Hızlı Sonuç",
+        "description": "Raporlarınız en kısa sürede hazırlanarak doktorunuza iletilir."
+      },
+      {
+        "title": "Hasta Konforu",
+        "description": "Modern ve konforlu merkezimizde stressiz bir deneyim yaşarsınız."
+      }
+    ],
+    "cta": "Hemen Randevu Al"
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": [
+      {
+        "question": "PET-CT zararlı mı?",
+        "answer": "PET-CT'de kullanılan radyasyon dozu düşüktür ve vücut tarafından kısa sürede atılır. Tıbbi gereklilik durumunda faydası olası risklerden çok daha fazladır."
+      },
+      {
+        "question": "PET-CT ağrılı bir işlem mi?",
+        "answer": "Hayır, PET-CT tamamen ağrısız bir işlemdir. Sadece damar yolundan yapılan enjeksiyon sırasında hafif bir batma hissedebilirsiniz."
+      },
+      {
+        "question": "PET-CT sonuçları ne zaman çıkar?",
+        "answer": "Sonuçlarınız genellikle 1-2 iş günü içinde hazır olur. Uzman hekimlerimiz görüntüleri detaylı olarak değerlendirdikten sonra raporunuz sevk eden doktorunuza iletilir."
+      },
+      {
+        "question": "PET-CT'ye girerken kıyafetlerimi çıkarmam gerekiyor mu?",
+        "answer": "Metal içermeyen rahat kıyafetlerle işleme girebilirsiniz. Gerekirse size özel bir hasta giysisi verilecektir."
+      },
+      {
+        "question": "Çocuklara PET-CT yapılabilir mi?",
+        "answer": "Evet, tıbbi gereklilik durumunda çocuklara da PET-CT yapılabilir. Doz, çocuğun kilosuna göre ayarlanır."
+      },
+      {
+        "question": "PET-CT için sevk gerekli mi?",
+        "answer": "Evet, PET-CT çekimi için bir doktor sevki/istem belgesi gereklidir. Onkoloji, nöroloji veya kardiyoloji gibi bölümlerden sevk alabilirsiniz."
+      },
+      {
+        "question": "PET-CT ücreti ne kadardır?",
+        "answer": "PET-CT ücreti, kullanılan radyofarmasötik ve ek işlemlere göre değişiklik gösterebilir. Güncel fiyat bilgisi ve SGK/özel sigorta kapsamı için merkezimizi arayabilirsiniz."
+      }
+    ]
+  },
+  "cta": {
+    "title": "PET-CT Randevunuzu Hemen Alın",
+    "description": "Erken tanı hayat kurtarır. Uzman ekibimizle iletişime geçin.",
+    "button": "Randevu Al"
+  },
+  "footer": {
+    "description": "Optimed Sağlık Grubu olarak ileri tıbbi görüntüleme hizmetleri sunuyoruz.",
+    "contact": "İletişim",
+    "address": "İstanbul, Türkiye",
+    "phone": "+90 (212) 000 00 00",
+    "email": "info@optimedsaglik.com",
+    "quickLinks": "Hızlı Bağlantılar",
+    "rights": "Tüm hakları saklıdır.",
+    "language": "Dil"
+  }
+}
