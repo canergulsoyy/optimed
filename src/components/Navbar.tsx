@@ -1,16 +1,16 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter, usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { href: "#what-is-petct", key: "petct" },
-  { href: "#when-used", key: "usage" },
-  { href: "#how-it-works", key: "process" },
-  { href: "#preparation", key: "preparation" },
-  { href: "#comparison", key: "comparison" },
-  { href: "#faq", key: "faq" },
+  { href: "#top", key: "home" },
+  { href: "#hospitals", key: "hospitals" },
+  { href: "#stats", key: "departments" },
+  { href: "#what-is-petct", key: "petctLanding" },
+  { href: "#cta", key: "contact" },
 ] as const;
 
 export default function Navbar() {
@@ -39,19 +39,24 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white/95 backdrop-blur-sm shadow-md"
-          : "bg-transparent"
+        scrolled ? "shadow-md" : ""
       }`}
+      style={{ backgroundColor: "var(--color-primary-800)" }}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <span className={`text-xl font-bold lg:text-2xl ${scrolled ? "text-primary-700" : "text-white"}`}>
-              Optimed
-            </span>
-            <span className={`hidden text-sm sm:inline ${scrolled ? "text-text-secondary" : "text-primary-100"}`}>
+          <a href="#" className="flex items-center gap-3">
+            <div className="relative h-7 w-28 sm:h-8 sm:w-32">
+              <Image
+                src="/images/optimed-logo.png"
+                alt="Optimed"
+                fill
+                priority
+                className="object-contain"
+              />
+            </div>
+            <span className="hidden text-sm font-medium text-primary-100 sm:inline">
               Health Group
             </span>
           </a>
@@ -62,9 +67,7 @@ export default function Navbar() {
               <a
                 key={link.key}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-accent-500 ${
-                  scrolled ? "text-text-primary" : "text-white/90"
-                }`}
+                className="text-sm font-medium text-white/90 transition-colors hover:text-accent-400"
               >
                 {t(link.key)}
               </a>
@@ -73,11 +76,7 @@ export default function Navbar() {
             {/* Language switch */}
             <button
               onClick={switchLocale}
-              className={`rounded-md px-3 py-1.5 text-sm font-semibold transition-colors ${
-                scrolled
-                  ? "border border-primary-200 text-primary-700 hover:bg-primary-50"
-                  : "border border-white/30 text-white hover:bg-white/10"
-              }`}
+              className="rounded-md border border-white/30 px-3 py-1.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
             >
               {locale.toUpperCase()}
             </button>
@@ -95,15 +94,13 @@ export default function Navbar() {
           <div className="flex items-center gap-3 lg:hidden">
             <button
               onClick={switchLocale}
-              className={`rounded-md px-2 py-1 text-sm font-semibold ${
-                scrolled ? "text-primary-700" : "text-white"
-              }`}
+              className="rounded-md px-2 py-1 text-sm font-semibold text-white"
             >
               {locale.toUpperCase()}
             </button>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className={`p-2 ${scrolled ? "text-text-primary" : "text-white"}`}
+              className="p-2 text-white"
               aria-label={mobileOpen ? t("closeMenu") : t("openMenu")}
             >
               {mobileOpen ? (
@@ -122,14 +119,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-primary-100 bg-white shadow-lg lg:hidden">
+        <div className="border-t border-primary-700 bg-primary-900/98 shadow-lg lg:hidden">
           <div className="space-y-1 px-4 py-4">
             {navLinks.map((link) => (
               <a
                 key={link.key}
                 href={link.href}
                 onClick={handleNavClick}
-                className="block rounded-md px-3 py-2 text-sm font-medium text-text-primary hover:bg-primary-50 hover:text-primary-700"
+                className="block rounded-md px-3 py-2 text-sm font-medium text-primary-50 hover:bg-primary-800 hover:text-white"
               >
                 {t(link.key)}
               </a>

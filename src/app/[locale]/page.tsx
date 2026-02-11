@@ -1,17 +1,17 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
 import WhatIsPetCt from "@/components/WhatIsPetCt";
 import WhenUsed from "@/components/WhenUsed";
 import HowItWorks from "@/components/HowItWorks";
-import WhoShouldAvoid from "@/components/WhoShouldAvoid";
-import Preparation from "@/components/Preparation";
 import Duration from "@/components/Duration";
 import AfterScan from "@/components/AfterScan";
-import Comparison from "@/components/Comparison";
 import OptimedService from "@/components/OptimedService";
-import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
 import Footer from "@/components/Footer";
+import Hospitals from "@/components/Hospitals";
+import ScrollContactModal from "@/components/ScrollContactModal";
+import Doctors from "@/components/Doctors";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -45,22 +45,22 @@ export default async function HomePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
       />
+      <a id="top" />
       <Navbar />
       <main>
+        <ScrollContactModal />
         <Hero />
+        <Stats />
+        <Hospitals />
         <WhatIsPetCt />
         <WhenUsed />
         <HowItWorks />
         <CTABanner />
-        <WhoShouldAvoid />
-        <Preparation />
         <Duration />
         <AfterScan />
         <CTABanner />
-        <Comparison />
         <OptimedService />
-        <FAQ />
-        <CTABanner />
+        <Doctors />
       </main>
       <Footer />
     </>

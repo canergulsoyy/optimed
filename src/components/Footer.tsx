@@ -1,107 +1,173 @@
 "use client";
 
-import { useTranslations, useLocale } from "next-intl";
-import { useRouter, usePathname } from "next/navigation";
-
-const footerNavLinks = [
-  { href: "#what-is-petct", key: "petct" },
-  { href: "#when-used", key: "usage" },
-  { href: "#how-it-works", key: "process" },
-  { href: "#preparation", key: "preparation" },
-  { href: "#comparison", key: "comparison" },
-  { href: "#faq", key: "faq" },
-] as const;
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const t = useTranslations("footer");
-  const tn = useTranslations("navbar");
-  const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname();
 
-  const switchLocale = () => {
-    const newLocale = locale === "tr" ? "en" : "tr";
-    const path = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(path);
-  };
+  const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary-900 pt-16 pb-8 text-primary-100">
+    <footer className="border-t border-slate-100 bg-white pt-16 pb-10 text-text-primary">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
-          {/* Brand */}
-          <div className="lg:col-span-1">
-            <h3 className="mb-3 text-xl font-bold text-white">Optimed</h3>
-            <p className="text-sm leading-relaxed text-primary-200">
-              {t("description")}
-            </p>
+        <div className="grid gap-10 md:grid-cols-3">
+          {/* Quick access */}
+          <div>
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
+              Quick access
+            </h3>
+            <ul className="space-y-2 text-sm text-text-secondary">
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  Contracted Institutions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  PDPL Information Notice
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  Patient Rights
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  Patient and Relative Information Guide
+                </a>
+              </li>
+            </ul>
+
+            <div className="mt-5 space-y-2 text-sm">
+              <p className="font-semibold uppercase tracking-wide text-primary-800">
+                MEDIA
+              </p>
+              <a href="#" className="text-text-secondary hover:text-primary-800">
+                Health Corner
+              </a>
+            </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Medical units */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-              {t("quickLinks")}
-            </h4>
-            <ul className="space-y-2">
-              {footerNavLinks.map((link) => (
-                <li key={link.key}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-primary-200 transition-colors hover:text-white"
-                  >
-                    {tn(link.key)}
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
+              Medical Units
+            </h3>
+            <ul className="space-y-2 text-sm text-text-secondary">
+              <li>
+                <a href="#" className="hover:text-primary-800">
+                  CONTACT
+                </a>
+              </li>
+              <li>
+                <a href="#" className="font-semibold hover:text-primary-800">
+                  See all
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Hospitals & social */}
+          <div className="space-y-6 text-sm text-text-secondary">
+            <div>
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
+                hospitals
+              </h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="#hospitals" className="hover:text-primary-800">
+                    Optimed | Çerkezköy
                   </a>
                 </li>
-              ))}
-            </ul>
-          </div>
+                <li>
+                  <a href="#hospitals" className="hover:text-primary-800">
+                    Optimed | Çorlu
+                  </a>
+                </li>
+                <li>
+                  <a href="#hospitals" className="hover:text-primary-800">
+                    Optimed | Kapaklı
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          {/* Contact */}
-          <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-              {t("contact")}
-            </h4>
-            <ul className="space-y-3 text-sm text-primary-200">
-              <li className="flex items-start gap-2">
-                <svg className="mt-0.5 h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                {t("address")}
-              </li>
-              <li className="flex items-start gap-2">
-                <svg className="mt-0.5 h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <a href="tel:+902120000000" className="hover:text-white">{t("phone")}</a>
-              </li>
-              <li className="flex items-start gap-2">
-                <svg className="mt-0.5 h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <a href="mailto:info@optimedsaglik.com" className="hover:text-white">{t("email")}</a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Language */}
-          <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">
-              {t("language")}
-            </h4>
-            <button
-              onClick={switchLocale}
-              className="rounded-md border border-primary-600 px-4 py-2 text-sm font-medium text-primary-200 transition-colors hover:border-primary-400 hover:text-white"
-            >
-              {locale === "tr" ? "English" : "Turkce"}
-            </button>
+            <div>
+              <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-800">
+                Social Media
+              </h3>
+              <div className="flex items-center gap-3 text-slate-400">
+                {/* Facebook */}
+                <a href="#" aria-label="Facebook" className="hover:text-primary-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M13.5 9H15V6.75A8.973 8.973 0 0012.75 6C10.678 6 9 7.507 9 9.75V12H6.75v3H9v6h3v-6h2.25L15 12h-3v-2.25C12 9.336 12.336 9 13.5 9z" />
+                  </svg>
+                </a>
+                {/* X / Twitter */}
+                <a href="#" aria-label="X" className="hover:text-primary-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M3.5 4.75h3.02L10 9.4 13.46 4.75h4.03l-5.5 7.1 5.5 7.4h-3.02L14 14.6 10.34 19.25H6.3l5.5-7.23-5.5-7.27z" />
+                  </svg>
+                </a>
+                {/* Instagram */}
+                <a href="#" aria-label="Instagram" className="hover:text-primary-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M7 3C4.791 3 3 4.791 3 7v10c0 2.209 1.791 4 4 4h10c2.209 0 4-1.791 4-4V7c0-2.209-1.791-4-4-4H7zm0 2h10c1.103 0 2 .897 2 2v10c0 1.103-.897 2-2 2H7c-1.103 0-2-.897-2-2V7c0-1.103.897-2 2-2zm10 1.5a1 1 0 100 2 1 1 0 000-2zM12 8a4 4 0 100 8 4 4 0 000-8zm0 2a2 2 0 110 4 2 2 0 010-4z" />
+                  </svg>
+                </a>
+                {/* YouTube */}
+                <a href="#" aria-label="YouTube" className="hover:text-primary-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M21.8 8.001a2.749 2.749 0 00-1.935-1.948C18.273 5.75 12 5.75 12 5.75s-6.273 0-7.865.303A2.749 2.749 0 002.2 8.001 28.37 28.37 0 002 12a28.37 28.37 0 00.2 3.999 2.749 2.749 0 001.935 1.948C5.727 18.25 12 18.25 12 18.25s6.273 0 7.865-.303a2.749 2.749 0 001.935-1.948A28.37 28.37 0 0022 12a28.37 28.37 0 00-.2-3.999zM10.5 14.75v-5.5L15 12l-4.5 2.75z" />
+                  </svg>
+                </a>
+                {/* LinkedIn */}
+                <a href="#" aria-label="LinkedIn" className="hover:text-primary-800">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M4.98 3.5C3.88 3.5 3 4.38 3 5.48 3 6.57 3.87 7.46 4.96 7.48h.02C6.06 7.48 6.94 6.6 6.94 5.5 6.92 4.41 6.05 3.52 4.98 3.5zM4 8.75h2v11H4v-11zM9 8.75h1.92v1.5h.03c.27-.51.94-1.05 1.93-1.05 2.07 0 2.45 1.36 2.45 3.13v6.47h-2v-5.73c0-1.37-.03-3.13-1.91-3.13-1.91 0-2.2 1.49-2.2 3.03v5.83H9v-11z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="mt-12 border-t border-primary-800 pt-8 text-center text-sm text-primary-300">
-          &copy; {new Date().getFullYear()} Optimed Health Group. {t("rights")}
+        <div className="mt-10 border-t border-slate-100 pt-5 text-center text-xs text-slate-500">
+          &copy; {year} Optimed Health Group. {t("rights")}
         </div>
       </div>
     </footer>
   );
 }
+

@@ -4,6 +4,11 @@
     "description": "State-of-the-art PET-CT imaging services at Optimed Health Group. Book your appointment for accurate and early diagnosis."
   },
   "navbar": {
+    "home": "Homepage",
+    "hospitals": "Our Hospitals",
+    "departments": "Medical Departments",
+    "petctLanding": "PET-CT Service",
+    "contact": "Contact",
     "petct": "What is PET-CT?",
     "usage": "Applications",
     "process": "How It Works",
@@ -176,6 +181,49 @@
       }
     ]
   },
+  "stats": {
+    "title": "Optimed Health Group in Numbers",
+    "items": [
+      {
+        "value": "50+",
+        "label": "Medical Departments"
+      },
+      {
+        "value": "150+",
+        "label": "Specialist Physicians"
+      },
+      {
+        "value": "36,000 m²",
+        "label": "Indoor Area"
+      },
+      {
+        "value": "300+",
+        "label": "Bed Capacity"
+      }
+    ],
+    "accreditations": {
+      "value": "+48",
+      "heading": "From the Country",
+      "subheading": "Serving patients from more than 48 countries with national and international quality accreditations.",
+      "imageAlt": "Optimed Health Group national and international quality accreditations"
+    }
+  },
+  "hospitals": {
+    "title": "Our Hospitals",
+    "infoLabel": "Information and Appointment",
+    "buttonLabel": "Make an Appointment",
+    "items": [
+      {
+        "name": "Optimed | Çerkezköy"
+      },
+      {
+        "name": "Optimed | Çorlu"
+      },
+      {
+        "name": "Optimed | Kapaklı"
+      }
+    ]
+  },
   "comparison": {
     "title": "PET-CT vs Other Imaging Methods",
     "headers": ["Feature", "PET-CT", "MRI", "CT"],
@@ -249,6 +297,41 @@
     "title": "Book Your PET-CT Appointment Today",
     "description": "Early diagnosis saves lives. Get in touch with our expert team.",
     "button": "Book Appointment"
+  },
+  "contactModal": {
+    "title": "Contact Us",
+    "close": "Close dialog",
+    "fields": {
+      "name": "* Your Name",
+      "email": "* Email Address",
+      "phone": "* Phone Number",
+      "subject": "* Subject",
+      "message": "* Your Message"
+    },
+    "kvkk": "I have read and accept the personal data protection notice.",
+    "submit": "Send"
+  },
+  "doctors": {
+    "title": "Our Doctors",
+    "description": "Our experienced radiology and oncology specialists support you at every stage of the PET-CT process.",
+    "detail": "View Profile",
+    "items": [
+      {
+        "name": "Uzm. Dr. Hüseyin Uçar",
+        "title": "Radiology",
+        "specialty": "Radiology - PET-CT and advanced imaging"
+      },
+      {
+        "name": "Uzm. Dr. Burak Uslu",
+        "title": "Radiology",
+        "specialty": "Radiology - body and neuroradiology experience"
+      },
+      {
+        "name": "Uzm. Dr. Shute Ailia Dae",
+        "title": "Medical Oncology",
+        "specialty": "Medical Oncology - PET-CT interpretation in treatment planning"
+      }
+    ]
   },
   "footer": {
     "description": "At Optimed Health Group, we provide advanced medical imaging services.",

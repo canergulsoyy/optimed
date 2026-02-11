@@ -15,7 +15,11 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale: rawLocale } = await params;
+  const locale = routing.locales.includes(rawLocale as any)
+    ? rawLocale
+    : routing.defaultLocale;
+
   const messages = (await import(`../../messages/${locale}.json`)).default as any;
 
   let openGraphLocale: string;
@@ -47,7 +51,11 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }: Props) {
-  const { locale } = await params;
+  const { locale: rawLocale } = await params;
+  const locale = routing.locales.includes(rawLocale as any)
+    ? rawLocale
+    : routing.defaultLocale;
+
   const messages = (await import(`../../messages/${locale}.json`)).default;
 
   return (

@@ -4,6 +4,11 @@
     "description": "Optimed Sağlık Grubu'nda son teknoloji PET-CT görüntüleme hizmeti. Erken ve doğru tanı için hemen randevu alın."
   },
   "navbar": {
+    "home": "Anasayfa",
+    "hospitals": "Hastanelerimiz",
+    "departments": "Tıbbi Birimler",
+    "petctLanding": "PET-CT Hizmeti",
+    "contact": "İletişim",
     "petct": "PET-CT Nedir?",
     "usage": "Kullanım Alanları",
     "process": "Nasıl Yapılır?",
@@ -176,6 +181,49 @@
       }
     ]
   },
+  "stats": {
+    "title": "Optimed Sağlık Grubu Rakamlarla",
+    "items": [
+      {
+        "value": "50+",
+        "label": "Tıbbi Bölüm"
+      },
+      {
+        "value": "150+",
+        "label": "Uzman Hekim"
+      },
+      {
+        "value": "36.000 m²",
+        "label": "Kapalı Alan"
+      },
+      {
+        "value": "300+",
+        "label": "Yatak Kapasitesi"
+      }
+    ],
+    "accreditations": {
+      "value": "+48",
+      "heading": "Ülkeden",
+      "subheading": "Ulusal ve uluslararası kalite akreditasyonlarına sahip, dünya genelinden hastalara hizmet veriyoruz.",
+      "imageAlt": "Optimed Sağlık Grubu ulusal ve uluslararası kalite akreditasyonları"
+    }
+  },
+  "hospitals": {
+    "title": "Hastanelerimiz",
+    "infoLabel": "Bilgi ve Randevu",
+    "buttonLabel": "Randevu Al",
+    "items": [
+      {
+        "name": "Optimed | Çerkezköy"
+      },
+      {
+        "name": "Optimed | Çorlu"
+      },
+      {
+        "name": "Optimed | Kapaklı"
+      }
+    ]
+  },
   "comparison": {
     "title": "PET-CT ve Diğer Görüntüleme Yöntemleri",
     "headers": ["Özellik", "PET-CT", "MR", "BT"],
@@ -249,6 +297,41 @@
     "title": "PET-CT Randevunuzu Hemen Alın",
     "description": "Erken tanı hayat kurtarır. Uzman ekibimizle iletişime geçin.",
     "button": "Randevu Al"
+  },
+  "contactModal": {
+    "title": "Bize Ulaşın",
+    "close": "Pencereyi kapat",
+    "fields": {
+      "name": "* Adınız Soyadınız",
+      "email": "* E-posta Adresiniz",
+      "phone": "* Telefon Numaranız",
+      "subject": "* Konu",
+      "message": "* Mesajınız"
+    },
+    "kvkk": "Kişisel Verilerin Korunması Kanunu Aydınlatma Metnini okudum, kabul ediyorum.",
+    "submit": "Gönder"
+  },
+  "doctors": {
+    "title": "Doktorlarımız",
+    "description": "Deneyimli radyoloji ve onkoloji uzmanlarımız, PET-CT sürecinizin her aşamasında yanınızdadır.",
+    "detail": "Detaylı Bilgi",
+    "items": [
+      {
+        "name": "Uzm. Dr. Hüseyin Uçar",
+        "title": "Radyoloji",
+        "specialty": "Radyoloji - PET-CT ve ileri radyolojik görüntüleme"
+      },
+      {
+        "name": "Uzm. Dr. Burak Uslu",
+        "title": "Radyoloji",
+        "specialty": "Radyoloji - Vücut ve nöroradyoloji alanlarında deneyim"
+      },
+      {
+        "name": "Uzm. Dr. Shute Ailia Dae",
+        "title": "Tıbbi Onkoloji",
+        "specialty": "Tıbbi Onkoloji - Onkolojik tedavi planlamasında PET-CT yorumlama"
+      }
+    ]
   },
   "footer": {
     "description": "Optimed Sağlık Grubu olarak ileri tıbbi görüntüleme hizmetleri sunuyoruz.",
