@@ -208,6 +208,11 @@
       "imageAlt": "Optimed Health Group national and international quality accreditations"
     }
   },
+  "video": {
+    "title": "Introduction Video",
+    "description": "Watch our introduction video to get to know our hospital better.",
+    "iframeTitle": "Optimed PET-CT introduction video"
+  },
   "hospitals": {
     "title": "Our Hospitals",
     "infoLabel": "Information and Appointment",
@@ -334,13 +339,19 @@
     ]
   },
   "footer": {
-    "description": "At Optimed Health Group, we provide advanced medical imaging services.",
-    "contact": "Contact",
-    "address": "Istanbul, Turkey",
-    "phone": "+90 (212) 000 00 00",
-    "email": "info@optimedsaglik.com",
-    "quickLinks": "Quick Links",
     "rights": "All rights reserved.",
-    "language": "Language"
+    "quickAccessTitle": "Quick access",
+    "aboutUs": "About Us",
+    "contractedInstitutions": "Contracted Institutions",
+    "pdplNotice": "PDPL Information Notice",
+    "patientRights": "Patient Rights",
+    "patientGuide": "Patient and Relative Information Guide",
+    "media": "MEDIA",
+    "healthCorner": "Health Corner",
+    "medicalUnitsTitle": "Medical Units",
+    "contactLink": "CONTACT",
+    "seeAll": "See all",
+    "hospitalsTitle": "Hospitals",
+    "socialMediaTitle": "Social Media"
   }
 }

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
+import VideoSection from "@/components/VideoSection";
 import WhatIsPetCt from "@/components/WhatIsPetCt";
 import WhenUsed from "@/components/WhenUsed";
 import HowItWorks from "@/components/HowItWorks";
@@ -51,6 +52,7 @@ export default async function HomePage({ params }: Props) {
         <ScrollContactModal />
         <Hero />
         <Stats />
+        <VideoSection />
         <Hospitals />
         <WhatIsPetCt />
         <WhenUsed />

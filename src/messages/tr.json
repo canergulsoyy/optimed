@@ -208,6 +208,11 @@
       "imageAlt": "Optimed Sağlık Grubu ulusal ve uluslararası kalite akreditasyonları"
     }
   },
+  "video": {
+    "title": "Tanıtım Videosu",
+    "description": "Hastanemizi daha yakından tanımak için tanıtım videomuzu izleyebilirsiniz.",
+    "iframeTitle": "Optimed PET-CT tanıtım videosu"
+  },
   "hospitals": {
     "title": "Hastanelerimiz",
     "infoLabel": "Bilgi ve Randevu",
@@ -334,13 +339,19 @@
     ]
   },
   "footer": {
-    "description": "Optimed Sağlık Grubu olarak ileri tıbbi görüntüleme hizmetleri sunuyoruz.",
-    "contact": "İletişim",
-    "address": "İstanbul, Türkiye",
-    "phone": "+90 (212) 000 00 00",
-    "email": "info@optimedsaglik.com",
-    "quickLinks": "Hızlı Bağlantılar",
     "rights": "Tüm hakları saklıdır.",
-    "language": "Dil"
+    "quickAccessTitle": "Hızlı Erişim",
+    "aboutUs": "Hakkımızda",
+    "contractedInstitutions": "Anlaşmalı Kurumlar",
+    "pdplNotice": "KVKK Aydınlatma Metni",
+    "patientRights": "Hasta Hakları",
+    "patientGuide": "Hasta ve Yakınları Bilgilendirme Rehberi",
+    "media": "MEDYA",
+    "healthCorner": "Sağlık Köşesi",
+    "medicalUnitsTitle": "Tıbbi Birimler",
+    "contactLink": "İLETİŞİM",
+    "seeAll": "Tümünü Gör",
+    "hospitalsTitle": "Hastaneler",
+    "socialMediaTitle": "Sosyal Medya"
   }
 }

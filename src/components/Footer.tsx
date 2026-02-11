@@ -14,42 +14,42 @@ export default function Footer() {
           {/* Quick access */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
-              Quick access
+              {t("quickAccessTitle")}
             </h3>
             <ul className="space-y-2 text-sm text-text-secondary">
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  About Us
+                  {t("aboutUs")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  Contracted Institutions
+                  {t("contractedInstitutions")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  PDPL Information Notice
+                  {t("pdplNotice")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  Patient Rights
+                  {t("patientRights")}
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  Patient and Relative Information Guide
+                  {t("patientGuide")}
                 </a>
               </li>
             </ul>
 
             <div className="mt-5 space-y-2 text-sm">
               <p className="font-semibold uppercase tracking-wide text-primary-800">
-                MEDIA
+                {t("media")}
               </p>
               <a href="#" className="text-text-secondary hover:text-primary-800">
-                Health Corner
+                {t("healthCorner")}
               </a>
             </div>
           </div>
@@ -57,17 +57,17 @@ export default function Footer() {
           {/* Medical units */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
-              Medical Units
+              {t("medicalUnitsTitle")}
             </h3>
             <ul className="space-y-2 text-sm text-text-secondary">
               <li>
                 <a href="#" className="hover:text-primary-800">
-                  CONTACT
+                  {t("contactLink")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-semibold hover:text-primary-800">
-                  See all
+                  {t("seeAll")}
                 </a>
               </li>
             </ul>
@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="space-y-6 text-sm text-text-secondary">
             <div>
               <h3 className="mb-4 text-sm font-semibold uppercase tracking-wide text-primary-800">
-                hospitals
+                {t("hospitalsTitle")}
               </h3>
               <ul className="space-y-2">
                 <li>
@@ -100,7 +100,7 @@ export default function Footer() {
 
             <div>
               <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-800">
-                Social Media
+                {t("socialMediaTitle")}
               </h3>
               <div className="flex items-center gap-3 text-slate-400">
                 {/* Facebook */}

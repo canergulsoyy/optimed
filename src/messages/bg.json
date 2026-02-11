@@ -208,6 +208,11 @@
       "imageAlt": "Национални и международни акредитации за качество на Optimed Health Group"
     }
   },
+  "video": {
+    "title": "Представящо видео",
+    "description": "Гледайте нашето представящо видео, за да опознаете по-добре нашата болница.",
+    "iframeTitle": "Представящо видео за Optimed PET-CT"
+  },
   "hospitals": {
     "title": "Нашите болници",
     "infoLabel": "Информация и записване на час",
@@ -334,13 +339,19 @@
     ]
   },
   "footer": {
-    "description": "В Optimed Здравна Група предлагаме съвременни услуги за медицинска образна диагностика.",
-    "contact": "Контакт",
-    "address": "Истанбул, Турция",
-    "phone": "+90 (212) 000 00 00",
-    "email": "info@optimedsaglik.com",
-    "quickLinks": "Бързи връзки",
     "rights": "Всички права запазени.",
-    "language": "Език"
+    "quickAccessTitle": "Бърз достъп",
+    "aboutUs": "За нас",
+    "contractedInstitutions": "Договорни институции",
+    "pdplNotice": "Информация по защита на личните данни",
+    "patientRights": "Права на пациента",
+    "patientGuide": "Информационен наръчник за пациенти и близки",
+    "media": "МЕДИИ",
+    "healthCorner": "Здравен ъгъл",
+    "medicalUnitsTitle": "Медицински звена",
+    "contactLink": "КОНТАКТ",
+    "seeAll": "Виж всички",
+    "hospitalsTitle": "Болници",
+    "socialMediaTitle": "Социални мрежи"
   }
 }
